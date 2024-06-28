@@ -312,3 +312,91 @@ nav a{
 
 
 }
+
+/*--Thesis section--*/
+.thesis{
+    padding: 32px 0px;
+}
+.thesis h2{
+    text-align: center;
+}
+.thesis-wrapper{
+    width: 100%;
+    display: flex;
+}
+.left-thesis{
+    width: 60%;
+    padding: 32px 24px;
+}
+.left-thesis video{
+    width: 100%;
+}
+.urban{
+    padding-top: 24px;
+}
+.urban p{
+    padding-top: 8px;
+}
+.right-thesis{
+    width: 40%;
+    padding: 32px 0px;
+}
+.thesis-sidebar{
+    display: flex;
+    align-items: center;
+}
+.thesis-sidebar .thesis-images{
+    width: 35%;
+}
+.thesis-images img{
+    width: 100%;    
+    padding: 16px;
+}
+.thesis-sidebar .thesis-details{
+    width: 65%;
+    margin-left:16px;
+}
+
+@media only screen and (max-width:768px){
+    .thesis{
+        padding:32px 0px 24px 0px;
+    }
+    .left-thesis{
+        display: block;
+        padding: 16px 0px 0px 0px;
+        width: 100%;
+    }
+    .left-thesis .urban{
+        display: none;
+    }
+    .left-thesis video{
+        width: 100%;
+    }
+    .right-thesis{
+        display: none;
+    }
+}
+
+/*--footer section--*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 24px 30px 24px;
+}
+.right-footer a{
+    text-decoration: none;
+    color: gray;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width:768px){
+    .footer{
+        padding: 16px 0px;
+    }
+    footer .right-footer a{
+        display:none;
+    }
+    .left-footer p{
+        font-size: 10px;
+    }
+}
